@@ -12,19 +12,54 @@ html, body, #root, .App, .component {
 }
 .cards {
   background-color: rgb(95, 94, 94);
-  color: white;
   position: relative;
   display: inline-block;
   margin: 40px;
   padding: 20px;
   border: 1px solid black;
-  width: 12%;
+  width: 15%;
   height: 25%;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
+  cursor: pointer;
 }
 .title {
-  font-size: 1em;
+  font-weight: bold;
+  font-size: 30px;
+}
+.desc {
+  font-size: 10px;
+}
+/* .cards:hover {
+  transform: rotateY(180deg);
+} */
+.flip-box {
+  background-color: transparent;
+  font-size: 20px;
+}
+.flip-box-inner {
+  position: relative;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.flip-box:active .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: relative;
+  backface-visibility: hidden;
+}
+.flip-box-front {
+  color: white;
+}
+.flip-box-back {
+  position: absolute;
+  font-size: 40px;
+  top: 0;
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
 }
