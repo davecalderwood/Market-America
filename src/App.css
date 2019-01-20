@@ -2,14 +2,13 @@
   background-color: rgb(109, 57, 57);
   text-align: center;
 }
-/* html, body, #root, .App, .component {
-  height: 100%;
-} */
 .deck {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   display: inline;
+  vertical-align: middle;
+  overflow: hidden;
 }
 .cards {
   background-color: rgb(95, 94, 94);
@@ -46,9 +45,6 @@
   transition: transform 1s;
   transform-style: preserve-3d;
 }
-/* .flip-box:active .flip-box-inner {
-  transform: rotateY(180deg);
-} */
 .flip-box-front, .flip-box-back {
   position: relative;
   backface-visibility: hidden;
@@ -62,7 +58,6 @@
   top: 0;
   background-color: #555;
   color: white;
-  transform: rotateY(180deg);
 }
 .aspectwrapper {
   display: inline-block; 
