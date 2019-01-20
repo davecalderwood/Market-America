@@ -3,10 +3,11 @@ import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, CardDeck, Container } from 'reactstrap';
 
 const ItemCard = (props) => {
+    
   return (
     <div>
 
-    <CardDeck className="deck flip-box">
+    <CardDeck className="deck flip-box aspectwrapper">
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -17,7 +18,7 @@ const ItemCard = (props) => {
           <CardText>Harum dignissimos placeat fugiat et qui. Accusanti…t omnis. Ipsum voluptatem dicta voluptatem nobis.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -28,7 +29,7 @@ const ItemCard = (props) => {
           <CardText>Occaecati laborum voluptates. Voluptatem natus sun…tis reprehenderit exercitationem explicabo magni.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -39,7 +40,7 @@ const ItemCard = (props) => {
           <CardText>Ut qui ipsa. Aut iste voluptas cupiditate. Aliquid…usantium eaque corporis. Et alias iste nam error.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -50,7 +51,7 @@ const ItemCard = (props) => {
           <CardText>Quos excepturi doloremque tempore mollitia. Quia a…atis dolor et rerum dolore commodi voluptas eius.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -61,7 +62,7 @@ const ItemCard = (props) => {
           <CardText>Dolorem natus eaque debitis illum qui vel impedit …on et sapiente error voluptatem officia et velit.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -72,7 +73,7 @@ const ItemCard = (props) => {
           <CardText>Sit atque velit nulla eveniet quia repellendus. No…landitiis sunt esse alias sed placeat laboriosam.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -83,7 +84,7 @@ const ItemCard = (props) => {
           <CardText>Delectus dolore ipsam. Et aut enim sit accusantium…equatur aliquam ea nemo accusantium. Vero qui ad.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -94,7 +95,7 @@ const ItemCard = (props) => {
           <CardText>Ut et ipsam consequatur. Et enim et ab qui harum q…it distinctio voluptatem ut. Eum praesentium qui.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -105,7 +106,7 @@ const ItemCard = (props) => {
           <CardText>Quam eum accusamus qui odit eveniet sunt inventore…am animi voluptas facilis et inventore est ullam.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -116,7 +117,7 @@ const ItemCard = (props) => {
           <CardText>Autem quia cumque qui perspiciatis cumque dignissi…. Est fuga tempore quas voluptatem voluptates ad.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -127,7 +128,7 @@ const ItemCard = (props) => {
           <CardText>Est dolores magni nam sed. Facere voluptas enim ne…io quos eligendi eos porro molestias possimus in.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -138,7 +139,7 @@ const ItemCard = (props) => {
           <CardText>Aperiam est numquam tempore. Nihil et at consectet…. Nihil magnam nisi inventore voluptate sunt aut.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -149,7 +150,7 @@ const ItemCard = (props) => {
           <CardText>Fugit et et quis est quidem non consequatur. Ut bl…iae ut. Ad perferendis itaque nesciunt assumenda.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -160,7 +161,7 @@ const ItemCard = (props) => {
           <CardText>Maxime non eaque impedit et pariatur fugiat dolore…s aut et. Omnis veritatis quibusdam mollitia sed.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -171,7 +172,7 @@ const ItemCard = (props) => {
           <CardText>Cupiditate deleniti rerum architecto consequatur v…quia minima delectus quidem. Illum ut quidem aut.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -182,7 +183,7 @@ const ItemCard = (props) => {
           <CardText>Architecto at magni. Earum animi corporis incidunt numquam. Aliquam recusandae explicabo.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -193,7 +194,7 @@ const ItemCard = (props) => {
           <CardText>Minus exercitationem eos adipisci. Unde inventore …lorem vel molestiae velit porro voluptatum sequi.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -204,7 +205,7 @@ const ItemCard = (props) => {
           <CardText>Doloribus asperiores soluta. Consectetur aut quae. Perferendis molestiae distinctio sit odit.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -215,7 +216,7 @@ const ItemCard = (props) => {
           <CardText>Iusto dolore sunt magnam necessitatibus nesciunt t…. Vel rerum dolor maxime rerum sint quia aperiam.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -226,7 +227,7 @@ const ItemCard = (props) => {
           <CardText>Accusamus accusantium in consequatur sequi quam. E…Enim saepe ut aut officia molestias nihil itaque.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -237,7 +238,7 @@ const ItemCard = (props) => {
           <CardText>Et est voluptatum quas dignissimos et. Porro rerum… vel qui distinctio fugit voluptas est vel atque.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -248,7 +249,7 @@ const ItemCard = (props) => {
           <CardText>Ut laudantium doloribus. Officia soluta velit ex d…e aliquam ducimus facilis laboriosam praesentium.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -259,7 +260,7 @@ const ItemCard = (props) => {
           <CardText>Doloribus sit aliquam id ad explicabo. Fugit aut u…di molestiae architecto sit et voluptas minus id.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -270,7 +271,7 @@ const ItemCard = (props) => {
           <CardText>Assumenda dolores id omnis alias vitae illo volupt… voluptas molestiae atque aut. A blanditiis modi.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
       <Card className="cards flip-box-inner">
       <Container className="flip-box-front">
@@ -281,7 +282,7 @@ const ItemCard = (props) => {
           <CardText>Deserunt est soluta nobis impedit placeat quia iur…st dolor ipsam incidunt. Optio saepe rerum vitae.</CardText>
         </CardBody>
         </Container>
-      </Card>
+      </Card>{' '}
 
     </CardDeck>
     </div>
