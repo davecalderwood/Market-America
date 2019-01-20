@@ -1,9 +1,10 @@
 .App {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(109, 57, 57);
+  text-align: center;
 }
-html, body, #root, .App, .component {
+/* html, body, #root, .App, .component {
   height: 100%;
-}
+} */
 .deck {
   display: flex;
   flex-direction: column;
@@ -17,24 +18,27 @@ html, body, #root, .App, .component {
   margin: 40px;
   padding: 20px;
   border: 1px solid black;
-  width: 15%;
-  height: 25%;
+  width: 12%;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   cursor: pointer;
+  vertical-align: middle;
 }
 .title {
   font-weight: bold;
   font-size: 30px;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 .desc {
   font-size: 10px;
 }
-/* .cards:hover {
-  transform: rotateY(180deg);
-} */
 .flip-box {
   background-color: transparent;
   font-size: 20px;
@@ -45,9 +49,9 @@ html, body, #root, .App, .component {
   transition: transform 1s;
   transform-style: preserve-3d;
 }
-.flip-box:active .flip-box-inner {
+/* .flip-box:active .flip-box-inner {
   transform: rotateY(180deg);
-}
+} */
 .flip-box-front, .flip-box-back {
   position: relative;
   backface-visibility: hidden;
